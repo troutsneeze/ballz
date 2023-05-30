@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>data\atlas.png</Source>
+      <Name>data\atlas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\atlas.xnb</Output>
+      <Time>2011-09-25T10:22:52.9224-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\fire.png</Source>
+      <Name>data\fire</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\fire.xnb</Output>
+      <Time>2011-09-25T14:34:02.7124-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\rainbow.png</Source>
+      <Name>data\rainbow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\rainbow.xnb</Output>
+      <Time>2011-09-25T14:34:02.7844-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\bg1.png</Source>
+      <Name>data\bg1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\bg1.xnb</Output>
+      <Time>2011-09-26T09:34:01.4076-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\spacestuff\blackhole.png</Source>
+      <Name>data\spacestuff\blackhole</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\spacestuff\blackhole.xnb</Output>
+      <Time>2011-09-26T07:56:37.5628-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\spacestuff\fireball.png</Source>
+      <Name>data\spacestuff\fireball</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\spacestuff\fireball.xnb</Output>
+      <Time>2011-09-26T07:56:37.5628-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\spacestuff\images.png</Source>
+      <Name>data\spacestuff\images</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\spacestuff\images.xnb</Output>
+      <Time>2011-09-26T07:56:37.5784-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\spacestuff\images2.png</Source>
+      <Name>data\spacestuff\images2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\spacestuff\images2.xnb</Output>
+      <Time>2011-09-26T07:56:37.5784-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\spacestuff\images3.png</Source>
+      <Name>data\spacestuff\images3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\spacestuff\images3.xnb</Output>
+      <Time>2011-09-26T07:56:37.5784-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\spacestuff\images4.png</Source>
+      <Name>data\spacestuff\images4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\spacestuff\images4.xnb</Output>
+      <Time>2011-09-26T07:56:37.5784-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\spacestuff\images5.png</Source>
+      <Name>data\spacestuff\images5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\spacestuff\images5.xnb</Output>
+      <Time>2011-09-26T07:56:37.594-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\spacestuff\nebula.png</Source>
+      <Name>data\spacestuff\nebula</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\spacestuff\nebula.xnb</Output>
+      <Time>2011-09-26T07:56:37.594-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\dereka.png</Source>
+      <Name>data\dereka</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\dereka.xnb</Output>
+      <Time>2011-09-26T09:45:00.124-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\nooskewl_square.png</Source>
+      <Name>data\nooskewl_square</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\nooskewl_square.xnb</Output>
+      <Time>2011-09-26T09:45:00.124-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\story.png</Source>
+      <Name>data\story</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\story.xnb</Output>
+      <Time>2011-09-26T10:21:06.3338-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\menu.png</Source>
+      <Name>data\menu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\menu.xnb</Output>
+      <Time>2011-10-08T13:54:50.075925-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\blue_button.png</Source>
+      <Name>data\blue_button</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\blue_button.xnb</Output>
+      <Time>2011-09-26T11:58:57.1612-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\continue_txt.png</Source>
+      <Name>data\continue_txt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\continue_txt.xnb</Output>
+      <Time>2011-09-26T11:58:57.1612-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\credits_txt.png</Source>
+      <Name>data\credits_txt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\credits_txt.xnb</Output>
+      <Time>2011-09-26T11:58:57.1612-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\logo.png</Source>
+      <Name>data\logo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\logo.xnb</Output>
+      <Time>2011-09-26T11:58:57.1612-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\settings_txt.png</Source>
+      <Name>data\settings_txt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\settings_txt.xnb</Output>
+      <Time>2011-09-26T11:58:57.1768-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\selection_arrow.png</Source>
+      <Name>data\selection_arrow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\selection_arrow.xnb</Output>
+      <Time>2011-09-26T12:01:23.7108-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\kitty_txt.png</Source>
+      <Name>data\kitty_txt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\kitty_txt.xnb</Output>
+      <Time>2011-09-26T14:56:40.2842-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\music_txt.png</Source>
+      <Name>data\music_txt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\music_txt.xnb</Output>
+      <Time>2011-09-26T14:56:40.2882-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\sounds_txt.png</Source>
+      <Name>data\sounds_txt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\sounds_txt.xnb</Output>
+      <Time>2011-09-26T14:56:40.3382-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\orange_button.png</Source>
+      <Name>data\orange_button</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\orange_button.xnb</Output>
+      <Time>2011-09-26T15:10:31.0062-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\tinyfont.png</Source>
+      <Name>data\tinyfont</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\tinyfont.xnb</Output>
+      <Time>2011-09-26T20:07:53.5356-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\a.png</Source>
+      <Name>data\a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\a.xnb</Output>
+      <Time>2011-09-27T09:16:12.466-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\b.png</Source>
+      <Name>data\b</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\b.xnb</Output>
+      <Time>2011-09-27T09:16:12.467-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\x.png</Source>
+      <Name>data\x</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\x.xnb</Output>
+      <Time>2011-09-27T09:16:12.547-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\y.png</Source>
+      <Name>data\y</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\y.xnb</Output>
+      <Time>2011-09-27T09:16:12.548-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\lock.png</Source>
+      <Name>data\lock</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\lock.xnb</Output>
+      <Time>2011-09-27T13:26:28.3918-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\star.png</Source>
+      <Name>data\star</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\star.xnb</Output>
+      <Time>2011-09-27T13:43:02.1118-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\font.spritefont</Source>
+      <Name>data\font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\font.xnb</Output>
+      <Time>2011-09-26T12:53:26.8242-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\bink.wma</Source>
+      <Name>data\bink</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\bink.xnb</Output>
+      <Time>2011-09-26T14:41:44.9442-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\Bobby.wma</Source>
+      <Name>data\Bobby</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\Bobby.xnb</Output>
+      <Time>2011-09-26T14:41:44.9552-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\boing.wma</Source>
+      <Name>data\boing</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\boing.xnb</Output>
+      <Time>2011-09-26T14:41:44.9952-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\boost.wma</Source>
+      <Name>data\boost</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\boost.xnb</Output>
+      <Time>2011-09-26T14:41:44.9972-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\meow.wma</Source>
+      <Name>data\meow</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\meow.xnb</Output>
+      <Time>2011-09-26T14:41:44.9992-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\spiral.wma</Source>
+      <Name>data\spiral</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\spiral.xnb</Output>
+      <Time>2011-09-26T14:41:45.0012-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\start.wma</Source>
+      <Name>data\start</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\start.xnb</Output>
+      <Time>2011-09-26T14:41:45.0032-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\switch.wma</Source>
+      <Name>data\switch</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\switch.xnb</Output>
+      <Time>2011-09-26T14:41:45.0042-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\error.wma</Source>
+      <Name>data\error</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\error.xnb</Output>
+      <Time>2011-09-27T13:33:17.0468-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\blue_icon.png</Source>
+      <Name>data\blue_icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\blue_icon.xnb</Output>
+      <Time>2011-10-08T14:09:16.8000647-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\orange_icon.png</Source>
+      <Name>data\orange_icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\orange_icon.xnb</Output>
+      <Time>2011-10-08T14:09:16.8780757-06:00</Time>
+    </Item>
+    <Item>
+      <Source>data\menu.wma</Source>
+      <Name>data\menu_music</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\data\menu_music.xnb</Output>
+      <Time>2011-10-10T11:09:06.5848689-06:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Xbox360</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\trent\code\xna\Bobby\Bobby\BobbyContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\trent\code\xna\Bobby\Bobby\BobbyContent\obj\Xbox 360\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\trent\code\xna\Bobby\Bobby\Bobby\bin\Xbox 360\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-05-16T20:36:36.5038-06:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

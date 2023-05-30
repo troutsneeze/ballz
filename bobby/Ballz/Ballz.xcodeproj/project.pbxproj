@@ -1,0 +1,1172 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		960A1BF413A98B9700A85575 /* data in CopyFiles */ = {isa = PBXBuildFile; fileRef = 960A1BF313A98B9700A85575 /* data */; };
+		96213A521413BAD900343C96 /* bassstuff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96FA5B5513A82DF800FB7780 /* bassstuff.cpp */; };
+		96213A531413BAD900343C96 /* Bobby.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FA5B5613A82DF800FB7780 /* Bobby.m */; };
+		96213A851413BDE600343C96 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 96213A841413BDE600343C96 /* icon.icns */; };
+		96213A8D1413BE2700343C96 /* liballegro_font-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213A861413BE2700343C96 /* liballegro_font-static.a */; };
+		96213A8E1413BE2700343C96 /* liballegro_image-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213A871413BE2700343C96 /* liballegro_image-static.a */; };
+		96213A8F1413BE2700343C96 /* liballegro_main-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213A881413BE2700343C96 /* liballegro_main-static.a */; };
+		96213A901413BE2700343C96 /* liballegro_primitives-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213A891413BE2700343C96 /* liballegro_primitives-static.a */; };
+		96213A911413BE2700343C96 /* liballegro_shader-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213A8A1413BE2700343C96 /* liballegro_shader-static.a */; };
+		96213A921413BE2700343C96 /* liballegro_ttf-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213A8B1413BE2700343C96 /* liballegro_ttf-static.a */; };
+		96213A931413BE2700343C96 /* liballegro-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213A8C1413BE2700343C96 /* liballegro-static.a */; };
+		96213A961413BE4200343C96 /* libbass.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213A941413BE4200343C96 /* libbass.dylib */; };
+		96213A971413BE4200343C96 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213A951413BE4200343C96 /* libfreetype.a */; };
+		96213A9A1413BE6F00343C96 /* data in CopyFiles */ = {isa = PBXBuildFile; fileRef = 96213A991413BE6F00343C96 /* data */; };
+		96213A9D1413BEA100343C96 /* libbass.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 96213A9C1413BEA100343C96 /* libbass.dylib */; };
+		96213AA31413C00E00343C96 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213A9F1413C00E00343C96 /* Cocoa.framework */; };
+		96213AA41413C00E00343C96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213AA01413C00E00343C96 /* Foundation.framework */; };
+		96213AA51413C00E00343C96 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213AA11413C00E00343C96 /* OpenGL.framework */; };
+		96213AA61413C00E00343C96 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213AA21413C00E00343C96 /* QuartzCore.framework */; };
+		96213AA81413C01C00343C96 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213AA71413C01C00343C96 /* IOKit.framework */; };
+		96213AAD1413C6FB00343C96 /* bassstuff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96FA5B5513A82DF800FB7780 /* bassstuff.cpp */; };
+		96213AAE1413C6FB00343C96 /* Bobby.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FA5B5613A82DF800FB7780 /* Bobby.m */; };
+		96213AB01413C6FB00343C96 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213AA71413C01C00343C96 /* IOKit.framework */; };
+		96213AB11413C6FB00343C96 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213A9F1413C00E00343C96 /* Cocoa.framework */; };
+		96213AB21413C6FB00343C96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213AA01413C00E00343C96 /* Foundation.framework */; };
+		96213AB31413C6FB00343C96 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213AA11413C00E00343C96 /* OpenGL.framework */; };
+		96213AB41413C6FB00343C96 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213AA21413C00E00343C96 /* QuartzCore.framework */; };
+		96213AB51413C6FB00343C96 /* libbass.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213A941413BE4200343C96 /* libbass.dylib */; };
+		96213AB61413C6FB00343C96 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213A951413BE4200343C96 /* libfreetype.a */; };
+		96213AB71413C6FB00343C96 /* liballegro_font-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213A861413BE2700343C96 /* liballegro_font-static.a */; };
+		96213AB81413C6FB00343C96 /* liballegro_image-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213A871413BE2700343C96 /* liballegro_image-static.a */; };
+		96213AB91413C6FB00343C96 /* liballegro_main-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213A881413BE2700343C96 /* liballegro_main-static.a */; };
+		96213ABA1413C6FB00343C96 /* liballegro_primitives-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213A891413BE2700343C96 /* liballegro_primitives-static.a */; };
+		96213ABB1413C6FB00343C96 /* liballegro_shader-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213A8A1413BE2700343C96 /* liballegro_shader-static.a */; };
+		96213ABC1413C6FB00343C96 /* liballegro_ttf-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213A8B1413BE2700343C96 /* liballegro_ttf-static.a */; };
+		96213ABD1413C6FB00343C96 /* liballegro-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96213A8C1413BE2700343C96 /* liballegro-static.a */; };
+		96213AC31413C6FB00343C96 /* libbass.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 96213A9C1413BEA100343C96 /* libbass.dylib */; };
+		96213ACA1413C71E00343C96 /* lite-icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 96213AC91413C71E00343C96 /* lite-icon.icns */; };
+		96213ACE1413C78F00343C96 /* lite-data in CopyFiles */ = {isa = PBXBuildFile; fileRef = 96213ACD1413C78E00343C96 /* lite-data */; };
+		962C26E2140701C800C397FE /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 962C26E1140701C800C397FE /* libz.a */; };
+		962F36A213FC539600152654 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 962F36A113FC539600152654 /* libpng.a */; };
+		9638ADDC14C1E09A004EA91F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9638ADDB14C1E09A004EA91F /* AVFoundation.framework */; };
+		9638ADDF14C1E0E3004EA91F /* libSBJoystickLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9638ADDE14C1E0E3004EA91F /* libSBJoystickLib.a */; };
+		9638ADE014C1E0EA004EA91F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9638ADDB14C1E09A004EA91F /* AVFoundation.framework */; };
+		9638ADE114C1E104004EA91F /* libSBJoystickLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9638ADDE14C1E0E3004EA91F /* libSBJoystickLib.a */; };
+		9638ADEC14C20855004EA91F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9638ADE214C20855004EA91F /* Default.png */; };
+		9638ADED14C20855004EA91F /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 9638ADE314C20855004EA91F /* Icon-72.png */; };
+		9638ADEE14C20855004EA91F /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9638ADE414C20855004EA91F /* Icon-Small-50.png */; };
+		9638ADEF14C20855004EA91F /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 9638ADE514C20855004EA91F /* Icon-Small.png */; };
+		9638ADF014C20855004EA91F /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9638ADE614C20855004EA91F /* Icon-Small@2x.png */; };
+		9638ADF114C20855004EA91F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9638ADE714C20855004EA91F /* Icon.png */; };
+		9638ADF214C20855004EA91F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9638ADE814C20855004EA91F /* Icon@2x.png */; };
+		9638ADF314C20855004EA91F /* iPadIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9638ADE914C20855004EA91F /* iPadIcon.png */; };
+		9638ADF414C20855004EA91F /* iPhoneIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9638ADEA14C20855004EA91F /* iPhoneIcon.png */; };
+		9638ADF514C20855004EA91F /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 9638ADEB14C20855004EA91F /* iTunesArtwork */; };
+		9638AE0514C23CBF004EA91F /* JoypadLinkerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9638AE0114C23CBF004EA91F /* JoypadLinkerHelper.m */; };
+		9638AE0614C23CBF004EA91F /* libJoypadCocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9638AE0414C23CBF004EA91F /* libJoypadCocoaTouch.a */; };
+		9638AE0814C23CD4004EA91F /* libJoypadCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9638AE0714C23CD4004EA91F /* libJoypadCocoa.a */; };
+		9638AE0914C23DE8004EA91F /* libJoypadCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9638AE0714C23CD4004EA91F /* libJoypadCocoa.a */; };
+		9638AE0A14C23DEF004EA91F /* libJoypadCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9638AE0714C23CD4004EA91F /* libJoypadCocoa.a */; };
+		9638AE0B14C23DF9004EA91F /* libJoypadCocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9638AE0414C23CBF004EA91F /* libJoypadCocoaTouch.a */; };
+		964C1A6E1412E3F800487A5A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB9213CD4E8500239C86 /* AudioToolbox.framework */; };
+		964C1A6F1412E3F800487A5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB8F13CD4E4E00239C86 /* CoreGraphics.framework */; };
+		964C1A701412E3F800487A5A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB9013CD4E4E00239C86 /* QuartzCore.framework */; };
+		964C1A711412E3F800487A5A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB8D13CD4DFA00239C86 /* MediaPlayer.framework */; };
+		964C1A731412E3F800487A5A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB8813CD4DBC00239C86 /* SystemConfiguration.framework */; };
+		964C1A741412E3F800487A5A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB7B13CD4D9C00239C86 /* CFNetwork.framework */; };
+		964C1A751412E3F800487A5A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB7C13CD4D9C00239C86 /* CoreFoundation.framework */; };
+		964C1A761412E3F800487A5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB7D13CD4D9D00239C86 /* Foundation.framework */; };
+		964C1A771412E3F800487A5A /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB7E13CD4D9D00239C86 /* GameKit.framework */; };
+		964C1A781412E3F800487A5A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB7F13CD4D9D00239C86 /* OpenGLES.framework */; };
+		964C1A791412E3F800487A5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB8013CD4D9D00239C86 /* UIKit.framework */; };
+		965A103B13931CAA00C1ECDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 965A103913931CAA00C1ECDA /* InfoPlist.strings */; };
+		965A10931393215300C1ECDA /* liballegro_font-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 965A10891393215300C1ECDA /* liballegro_font-static.a */; };
+		965A10941393215300C1ECDA /* liballegro_image-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 965A108A1393215300C1ECDA /* liballegro_image-static.a */; };
+		965A10951393215300C1ECDA /* liballegro_main-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 965A108B1393215300C1ECDA /* liballegro_main-static.a */; };
+		965A10961393215300C1ECDA /* liballegro_primitives-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 965A108C1393215300C1ECDA /* liballegro_primitives-static.a */; };
+		965A10971393215300C1ECDA /* liballegro_ttf-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 965A108D1393215300C1ECDA /* liballegro_ttf-static.a */; };
+		965A10981393215300C1ECDA /* liballegro-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 965A108E1393215300C1ECDA /* liballegro-static.a */; };
+		965A10991393215300C1ECDA /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 965A108F1393215300C1ECDA /* libfreetype.a */; };
+		967C34261412DBFF000046C8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB9213CD4E8500239C86 /* AudioToolbox.framework */; };
+		967C34271412DBFF000046C8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB8813CD4DBC00239C86 /* SystemConfiguration.framework */; };
+		967C34281412DBFF000046C8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB7B13CD4D9C00239C86 /* CFNetwork.framework */; };
+		967C34291412DBFF000046C8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB7C13CD4D9C00239C86 /* CoreFoundation.framework */; };
+		967C342A1412DBFF000046C8 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB7E13CD4D9D00239C86 /* GameKit.framework */; };
+		967EEB8E13CD4DFA00239C86 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB8D13CD4DFA00239C86 /* MediaPlayer.framework */; };
+		96943B1A1412E44300D04B0C /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 962C26E1140701C800C397FE /* libz.a */; };
+		96943B1C1412E44600D04B0C /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 962F36A113FC539600152654 /* libpng.a */; };
+		96943B1D1412E45200D04B0C /* liballegro_font-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 965A10891393215300C1ECDA /* liballegro_font-static.a */; };
+		96943B1E1412E45700D04B0C /* liballegro_image-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 965A108A1393215300C1ECDA /* liballegro_image-static.a */; };
+		96943B1F1412E45900D04B0C /* liballegro_main-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 965A108B1393215300C1ECDA /* liballegro_main-static.a */; };
+		96943B201412E45F00D04B0C /* liballegro_primitives-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 965A108C1393215300C1ECDA /* liballegro_primitives-static.a */; };
+		96943B211412E46200D04B0C /* liballegro_ttf-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 965A108D1393215300C1ECDA /* liballegro_ttf-static.a */; };
+		96943B221412E46500D04B0C /* liballegro-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 965A108E1393215300C1ECDA /* liballegro-static.a */; };
+		96943B231412E46800D04B0C /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 965A108F1393215300C1ECDA /* libfreetype.a */; };
+		96943B251412E48200D04B0C /* libbass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96943B241412E48200D04B0C /* libbass.a */; };
+		96943B511412EBD500D04B0C /* bassstuff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96FA5B5513A82DF800FB7780 /* bassstuff.cpp */; };
+		96943B521412EBD500D04B0C /* Bobby.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FA5B5613A82DF800FB7780 /* Bobby.m */; };
+		96943B531412EC1700D04B0C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB7F13CD4D9D00239C86 /* OpenGLES.framework */; };
+		96943B541412EC1D00D04B0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB7D13CD4D9D00239C86 /* Foundation.framework */; };
+		96943B551412EC3600D04B0C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB8F13CD4E4E00239C86 /* CoreGraphics.framework */; };
+		96943B561412EC3800D04B0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB8013CD4D9D00239C86 /* UIKit.framework */; };
+		96943B571412EC4100D04B0C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967EEB9013CD4E4E00239C86 /* QuartzCore.framework */; };
+		96943B581412EC5200D04B0C /* libbass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96943B241412E48200D04B0C /* libbass.a */; };
+		96943B5A1412ECB900D04B0C /* liballegro_shader-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96943B591412ECB900D04B0C /* liballegro_shader-static.a */; };
+		96943B5B1412F05600D04B0C /* liballegro_shader-static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96943B591412ECB900D04B0C /* liballegro_shader-static.a */; };
+		96943B5E1412F1C600D04B0C /* lite-data in CopyFiles */ = {isa = PBXBuildFile; fileRef = 96943B5D1412F1C600D04B0C /* lite-data */; };
+		96AB3A0C13AEA4660013BE7B /* MyUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AB3A0B13AEA4660013BE7B /* MyUIViewController.m */; };
+		96E9DBDB1433788000730484 /* joypad_handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E9DBDA1433788000730484 /* joypad_handler.m */; };
+		96E9DBDC1433788000730484 /* joypad_handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E9DBDA1433788000730484 /* joypad_handler.m */; };
+		96E9DBDD1433788000730484 /* joypad_handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E9DBDA1433788000730484 /* joypad_handler.m */; };
+		96E9DBDE1433788000730484 /* joypad_handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E9DBDA1433788000730484 /* joypad_handler.m */; };
+		96EDED86142552C900EDF463 /* Icon-Small-50.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 967C342E1412E249000046C8 /* Icon-Small-50.png */; };
+		96EDED87142552C900EDF463 /* Icon-Small.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 967C342F1412E249000046C8 /* Icon-Small.png */; };
+		96EDED88142552C900EDF463 /* Icon-72.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 96EDED81142552A300EDF463 /* Icon-72.png */; };
+		96EDED89142552C900EDF463 /* Icon.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 96EDED82142552A300EDF463 /* Icon.png */; };
+		96EDED8A142552C900EDF463 /* Icon-Small@2x.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 967C34301412E249000046C8 /* Icon-Small@2x.png */; };
+		96EDED8B142552C900EDF463 /* Icon@2x.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 967C34321412E249000046C8 /* Icon@2x.png */; };
+		96EDED8C142552C900EDF463 /* iPadIcon.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 967C34331412E249000046C8 /* iPadIcon.png */; };
+		96EDED8D142552C900EDF463 /* iPhoneIcon.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 967C34341412E249000046C8 /* iPhoneIcon.png */; };
+		96EDED8E142552C900EDF463 /* iTunesArtwork in CopyFiles */ = {isa = PBXBuildFile; fileRef = 967C34351412E249000046C8 /* iTunesArtwork */; };
+		96FA5B5713A82DF800FB7780 /* bassstuff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96FA5B5513A82DF800FB7780 /* bassstuff.cpp */; };
+		96FA5B5813A82DF800FB7780 /* Bobby.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FA5B5613A82DF800FB7780 /* Bobby.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		96213A781413BAD900343C96 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				96213A9A1413BE6F00343C96 /* data in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96213A981413BE4F00343C96 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				96213A9D1413BEA100343C96 /* libbass.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96213AC01413C6FB00343C96 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				96213ACE1413C78F00343C96 /* lite-data in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96213AC21413C6FB00343C96 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				96213AC31413C6FB00343C96 /* libbass.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965A105A1393201E00C1ECDA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				960A1BF413A98B9700A85575 /* data in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96943B5C1412F1B000D04B0C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				96943B5E1412F1C600D04B0C /* lite-data in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96EDED741425514B00EDF463 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 1;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96EDED85142552BC00EDF463 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 1;
+			files = (
+				96EDED86142552C900EDF463 /* Icon-Small-50.png in CopyFiles */,
+				96EDED87142552C900EDF463 /* Icon-Small.png in CopyFiles */,
+				96EDED88142552C900EDF463 /* Icon-72.png in CopyFiles */,
+				96EDED89142552C900EDF463 /* Icon.png in CopyFiles */,
+				96EDED8A142552C900EDF463 /* Icon-Small@2x.png in CopyFiles */,
+				96EDED8B142552C900EDF463 /* Icon@2x.png in CopyFiles */,
+				96EDED8C142552C900EDF463 /* iPadIcon.png in CopyFiles */,
+				96EDED8D142552C900EDF463 /* iPhoneIcon.png in CopyFiles */,
+				96EDED8E142552C900EDF463 /* iTunesArtwork in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		960A1BF313A98B9700A85575 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = ../data; sourceTree = "<group>"; };
+		96213A7D1413BAD900343C96 /* Bobby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bobby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96213A841413BDE600343C96 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../icon.icns; sourceTree = "<group>"; };
+		96213A861413BE2700343C96 /* liballegro_font-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_font-static.a"; path = "/usr/local/lib/liballegro_font-static.a"; sourceTree = "<absolute>"; };
+		96213A871413BE2700343C96 /* liballegro_image-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_image-static.a"; path = "/usr/local/lib/liballegro_image-static.a"; sourceTree = "<absolute>"; };
+		96213A881413BE2700343C96 /* liballegro_main-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_main-static.a"; path = "/usr/local/lib/liballegro_main-static.a"; sourceTree = "<absolute>"; };
+		96213A891413BE2700343C96 /* liballegro_primitives-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_primitives-static.a"; path = "/usr/local/lib/liballegro_primitives-static.a"; sourceTree = "<absolute>"; };
+		96213A8A1413BE2700343C96 /* liballegro_shader-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_shader-static.a"; path = "/usr/local/lib/liballegro_shader-static.a"; sourceTree = "<absolute>"; };
+		96213A8B1413BE2700343C96 /* liballegro_ttf-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_ttf-static.a"; path = "/usr/local/lib/liballegro_ttf-static.a"; sourceTree = "<absolute>"; };
+		96213A8C1413BE2700343C96 /* liballegro-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro-static.a"; path = "/usr/local/lib/liballegro-static.a"; sourceTree = "<absolute>"; };
+		96213A941413BE4200343C96 /* libbass.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbass.dylib; path = ../../local/lib/libbass.dylib; sourceTree = "<group>"; };
+		96213A951413BE4200343C96 /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = ../../local/lib/libfreetype.a; sourceTree = "<group>"; };
+		96213A991413BE6F00343C96 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = ../data; sourceTree = "<group>"; };
+		96213A9C1413BEA100343C96 /* libbass.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbass.dylib; path = ../../local/lib/libbass.dylib; sourceTree = "<group>"; };
+		96213A9F1413C00E00343C96 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		96213AA01413C00E00343C96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		96213AA11413C00E00343C96 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = DEVELOPER_DIR; };
+		96213AA21413C00E00343C96 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		96213AA71413C01C00343C96 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
+		96213AA91413C1F500343C96 /* Bobby-Mac-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Bobby-Mac-Info.plist"; sourceTree = "<group>"; };
+		96213AC71413C6FB00343C96 /* Bobby Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bobby Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96213AC91413C71E00343C96 /* lite-icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "lite-icon.icns"; path = "../lite-icon.icns"; sourceTree = "<group>"; };
+		96213ACB1413C74B00343C96 /* Mac copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Mac copy-Info.plist"; sourceTree = "<group>"; };
+		96213ACD1413C78E00343C96 /* lite-data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "lite-data"; path = "../lite-data"; sourceTree = "<group>"; };
+		962C26E1140701C800C397FE /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libz.a; path = ../../iphone_libs_r/libz.a; sourceTree = "<group>"; };
+		962F36A113FC539600152654 /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng.a; path = ../../iphone_libs_r/libpng.a; sourceTree = "<group>"; };
+		9638ADDB14C1E09A004EA91F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9638ADDE14C1E0E3004EA91F /* libSBJoystickLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSBJoystickLib.a; path = ../../iphone_libs_r/libSBJoystickLib.a; sourceTree = "<group>"; };
+		9638ADE214C20855004EA91F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../icons/Default.png; sourceTree = "<group>"; };
+		9638ADE314C20855004EA91F /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../icons/Icon-72.png"; sourceTree = "<group>"; };
+		9638ADE414C20855004EA91F /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "../icons/Icon-Small-50.png"; sourceTree = "<group>"; };
+		9638ADE514C20855004EA91F /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "../icons/Icon-Small.png"; sourceTree = "<group>"; };
+		9638ADE614C20855004EA91F /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "../icons/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		9638ADE714C20855004EA91F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../icons/Icon.png; sourceTree = "<group>"; };
+		9638ADE814C20855004EA91F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../icons/Icon@2x.png"; sourceTree = "<group>"; };
+		9638ADE914C20855004EA91F /* iPadIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPadIcon.png; path = ../icons/iPadIcon.png; sourceTree = "<group>"; };
+		9638ADEA14C20855004EA91F /* iPhoneIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhoneIcon.png; path = ../icons/iPhoneIcon.png; sourceTree = "<group>"; };
+		9638ADEB14C20855004EA91F /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = ../icons/iTunesArtwork; sourceTree = "<group>"; };
+		9638ADFE14C23CBF004EA91F /* JoypadConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JoypadConstants.h; path = "../../../Downloads/JoypadSDKs 2/Cocoa/iOS/JoypadiOS/JoypadConstants.h"; sourceTree = "<group>"; };
+		9638ADFF14C23CBF004EA91F /* JoypadControllerLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JoypadControllerLayout.h; path = "../../../Downloads/JoypadSDKs 2/Cocoa/iOS/JoypadiOS/JoypadControllerLayout.h"; sourceTree = "<group>"; };
+		9638AE0014C23CBF004EA91F /* JoypadDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JoypadDevice.h; path = "../../../Downloads/JoypadSDKs 2/Cocoa/iOS/JoypadiOS/JoypadDevice.h"; sourceTree = "<group>"; };
+		9638AE0114C23CBF004EA91F /* JoypadLinkerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JoypadLinkerHelper.m; path = "../../../Downloads/JoypadSDKs 2/Cocoa/iOS/JoypadiOS/JoypadLinkerHelper.m"; sourceTree = "<group>"; };
+		9638AE0214C23CBF004EA91F /* JoypadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JoypadManager.h; path = "../../../Downloads/JoypadSDKs 2/Cocoa/iOS/JoypadiOS/JoypadManager.h"; sourceTree = "<group>"; };
+		9638AE0314C23CBF004EA91F /* JoypadSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JoypadSDK.h; path = "../../../Downloads/JoypadSDKs 2/Cocoa/iOS/JoypadiOS/JoypadSDK.h"; sourceTree = "<group>"; };
+		9638AE0414C23CBF004EA91F /* libJoypadCocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libJoypadCocoaTouch.a; path = "../../../Downloads/JoypadSDKs 2/Cocoa/iOS/JoypadiOS/libJoypadCocoaTouch.a"; sourceTree = "<group>"; };
+		9638AE0714C23CD4004EA91F /* libJoypadCocoa.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libJoypadCocoa.a; path = "../../../Downloads/JoypadSDKs 2/Cocoa/Mac/JoypadMac/libJoypadCocoa.a"; sourceTree = "<group>"; };
+		96595830139EB0460065DB53 /* nooskewl_square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nooskewl_square.png; path = ../data/nooskewl_square.png; sourceTree = "<group>"; };
+		965A102813931CAA00C1ECDA /* Bobby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bobby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		965A103813931CAA00C1ECDA /* Ballz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ballz-Info.plist"; sourceTree = "<group>"; };
+		965A103A13931CAA00C1ECDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		965A103C13931CAA00C1ECDA /* Ballz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ballz-Prefix.pch"; sourceTree = "<group>"; };
+		965A10891393215300C1ECDA /* liballegro_font-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_font-static.a"; path = "../../iphone_libs_r/liballegro_font-static.a"; sourceTree = "<group>"; };
+		965A108A1393215300C1ECDA /* liballegro_image-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_image-static.a"; path = "../../iphone_libs_r/liballegro_image-static.a"; sourceTree = "<group>"; };
+		965A108B1393215300C1ECDA /* liballegro_main-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_main-static.a"; path = "../../iphone_libs_r/liballegro_main-static.a"; sourceTree = "<group>"; };
+		965A108C1393215300C1ECDA /* liballegro_primitives-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_primitives-static.a"; path = "../../iphone_libs_r/liballegro_primitives-static.a"; sourceTree = "<group>"; };
+		965A108D1393215300C1ECDA /* liballegro_ttf-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_ttf-static.a"; path = "../../iphone_libs_r/liballegro_ttf-static.a"; sourceTree = "<group>"; };
+		965A108E1393215300C1ECDA /* liballegro-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro-static.a"; path = "../../iphone_libs_r/liballegro-static.a"; sourceTree = "<group>"; };
+		965A108F1393215300C1ECDA /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = ../../iphone_libs_r/libfreetype.a; sourceTree = "<group>"; };
+		965BE8571412D9D000ECB316 /* Bobby Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bobby Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		967C342E1412E249000046C8 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "../icons/lite/Icon-Small-50.png"; sourceTree = "<group>"; };
+		967C342F1412E249000046C8 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "../icons/lite/Icon-Small.png"; sourceTree = "<group>"; };
+		967C34301412E249000046C8 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "../icons/lite/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		967C34321412E249000046C8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../icons/lite/Icon@2x.png"; sourceTree = "<group>"; };
+		967C34331412E249000046C8 /* iPadIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPadIcon.png; path = ../icons/lite/iPadIcon.png; sourceTree = "<group>"; };
+		967C34341412E249000046C8 /* iPhoneIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhoneIcon.png; path = ../icons/lite/iPhoneIcon.png; sourceTree = "<group>"; };
+		967C34351412E249000046C8 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = ../icons/lite/iTunesArtwork; sourceTree = "<group>"; };
+		967EEB7B13CD4D9C00239C86 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		967EEB7C13CD4D9C00239C86 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		967EEB7D13CD4D9D00239C86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		967EEB7E13CD4D9D00239C86 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		967EEB7F13CD4D9D00239C86 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		967EEB8013CD4D9D00239C86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		967EEB8713CD4DBC00239C86 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		967EEB8813CD4DBC00239C86 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		967EEB8D13CD4DFA00239C86 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		967EEB8F13CD4E4E00239C86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		967EEB9013CD4E4E00239C86 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		967EEB9213CD4E8500239C86 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		96943B241412E48200D04B0C /* libbass.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbass.a; path = ../../iphone_libs_r/libbass.a; sourceTree = "<group>"; };
+		96943B271412E66100D04B0C /* Bobby Lite-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Bobby Lite-Info.plist"; path = "Bobby Lite/Bobby Lite-Info.plist"; sourceTree = SOURCE_ROOT; };
+		96943B291412E66E00D04B0C /* Bobby Lite-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bobby Lite-Prefix.pch"; path = "Bobby Lite/Bobby Lite-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		96943B591412ECB900D04B0C /* liballegro_shader-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "liballegro_shader-static.a"; path = "../../iphone_libs_r/liballegro_shader-static.a"; sourceTree = "<group>"; };
+		96943B5D1412F1C600D04B0C /* lite-data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "lite-data"; path = "../lite-data"; sourceTree = "<group>"; };
+		96AB3A0A13AEA4660013BE7B /* MyUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUIViewController.h; sourceTree = "<group>"; };
+		96AB3A0B13AEA4660013BE7B /* MyUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIViewController.m; sourceTree = "<group>"; };
+		96E9DBD91433788000730484 /* joypad_handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = joypad_handler.h; sourceTree = "<group>"; };
+		96E9DBDA1433788000730484 /* joypad_handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = joypad_handler.m; sourceTree = "<group>"; };
+		96EDED81142552A300EDF463 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../icons/lite/Icon-72.png"; sourceTree = "<group>"; };
+		96EDED82142552A300EDF463 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../icons/lite/Icon.png; sourceTree = "<group>"; };
+		96FA5B5513A82DF800FB7780 /* bassstuff.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bassstuff.cpp; path = ../bassstuff.cpp; sourceTree = "<group>"; };
+		96FA5B5613A82DF800FB7780 /* Bobby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bobby.m; path = ../Bobby.m; sourceTree = "<group>"; };
+		96FA5B5913A82F1200FB7780 /* Bobby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bobby.h; path = ../Bobby.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96213A551413BAD900343C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96213AA81413C01C00343C96 /* IOKit.framework in Frameworks */,
+				96213AA31413C00E00343C96 /* Cocoa.framework in Frameworks */,
+				96213AA41413C00E00343C96 /* Foundation.framework in Frameworks */,
+				96213AA51413C00E00343C96 /* OpenGL.framework in Frameworks */,
+				96213AA61413C00E00343C96 /* QuartzCore.framework in Frameworks */,
+				96213A961413BE4200343C96 /* libbass.dylib in Frameworks */,
+				96213A971413BE4200343C96 /* libfreetype.a in Frameworks */,
+				96213A8D1413BE2700343C96 /* liballegro_font-static.a in Frameworks */,
+				96213A8E1413BE2700343C96 /* liballegro_image-static.a in Frameworks */,
+				9638AE0914C23DE8004EA91F /* libJoypadCocoa.a in Frameworks */,
+				96213A8F1413BE2700343C96 /* liballegro_main-static.a in Frameworks */,
+				96213A901413BE2700343C96 /* liballegro_primitives-static.a in Frameworks */,
+				96213A911413BE2700343C96 /* liballegro_shader-static.a in Frameworks */,
+				96213A921413BE2700343C96 /* liballegro_ttf-static.a in Frameworks */,
+				96213A931413BE2700343C96 /* liballegro-static.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96213AAF1413C6FB00343C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96213AB01413C6FB00343C96 /* IOKit.framework in Frameworks */,
+				96213AB11413C6FB00343C96 /* Cocoa.framework in Frameworks */,
+				96213AB21413C6FB00343C96 /* Foundation.framework in Frameworks */,
+				96213AB31413C6FB00343C96 /* OpenGL.framework in Frameworks */,
+				96213AB41413C6FB00343C96 /* QuartzCore.framework in Frameworks */,
+				96213AB51413C6FB00343C96 /* libbass.dylib in Frameworks */,
+				96213AB61413C6FB00343C96 /* libfreetype.a in Frameworks */,
+				96213AB71413C6FB00343C96 /* liballegro_font-static.a in Frameworks */,
+				9638AE0A14C23DEF004EA91F /* libJoypadCocoa.a in Frameworks */,
+				96213AB81413C6FB00343C96 /* liballegro_image-static.a in Frameworks */,
+				96213AB91413C6FB00343C96 /* liballegro_main-static.a in Frameworks */,
+				96213ABA1413C6FB00343C96 /* liballegro_primitives-static.a in Frameworks */,
+				96213ABB1413C6FB00343C96 /* liballegro_shader-static.a in Frameworks */,
+				96213ABC1413C6FB00343C96 /* liballegro_ttf-static.a in Frameworks */,
+				96213ABD1413C6FB00343C96 /* liballegro-static.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965A102513931CAA00C1ECDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9638ADDF14C1E0E3004EA91F /* libSBJoystickLib.a in Frameworks */,
+				9638ADDC14C1E09A004EA91F /* AVFoundation.framework in Frameworks */,
+				962C26E2140701C800C397FE /* libz.a in Frameworks */,
+				962F36A213FC539600152654 /* libpng.a in Frameworks */,
+				967C34261412DBFF000046C8 /* AudioToolbox.framework in Frameworks */,
+				96943B581412EC5200D04B0C /* libbass.a in Frameworks */,
+				96943B5A1412ECB900D04B0C /* liballegro_shader-static.a in Frameworks */,
+				9638AE0614C23CBF004EA91F /* libJoypadCocoaTouch.a in Frameworks */,
+				967EEB8E13CD4DFA00239C86 /* MediaPlayer.framework in Frameworks */,
+				965A10931393215300C1ECDA /* liballegro_font-static.a in Frameworks */,
+				967C34271412DBFF000046C8 /* SystemConfiguration.framework in Frameworks */,
+				967C34281412DBFF000046C8 /* CFNetwork.framework in Frameworks */,
+				967C34291412DBFF000046C8 /* CoreFoundation.framework in Frameworks */,
+				967C342A1412DBFF000046C8 /* GameKit.framework in Frameworks */,
+				965A10941393215300C1ECDA /* liballegro_image-static.a in Frameworks */,
+				965A10951393215300C1ECDA /* liballegro_main-static.a in Frameworks */,
+				96943B541412EC1D00D04B0C /* Foundation.framework in Frameworks */,
+				96943B571412EC4100D04B0C /* QuartzCore.framework in Frameworks */,
+				965A10961393215300C1ECDA /* liballegro_primitives-static.a in Frameworks */,
+				96943B551412EC3600D04B0C /* CoreGraphics.framework in Frameworks */,
+				96943B531412EC1700D04B0C /* OpenGLES.framework in Frameworks */,
+				96943B561412EC3800D04B0C /* UIKit.framework in Frameworks */,
+				965A10971393215300C1ECDA /* liballegro_ttf-static.a in Frameworks */,
+				965A10981393215300C1ECDA /* liballegro-static.a in Frameworks */,
+				965A10991393215300C1ECDA /* libfreetype.a in Frameworks */,
+				9638AE0814C23CD4004EA91F /* libJoypadCocoa.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965BE8541412D9D000ECB316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9638ADE114C1E104004EA91F /* libSBJoystickLib.a in Frameworks */,
+				9638ADE014C1E0EA004EA91F /* AVFoundation.framework in Frameworks */,
+				96943B251412E48200D04B0C /* libbass.a in Frameworks */,
+				964C1A6E1412E3F800487A5A /* AudioToolbox.framework in Frameworks */,
+				964C1A6F1412E3F800487A5A /* CoreGraphics.framework in Frameworks */,
+				964C1A701412E3F800487A5A /* QuartzCore.framework in Frameworks */,
+				9638AE0B14C23DF9004EA91F /* libJoypadCocoaTouch.a in Frameworks */,
+				96943B1C1412E44600D04B0C /* libpng.a in Frameworks */,
+				964C1A711412E3F800487A5A /* MediaPlayer.framework in Frameworks */,
+				96943B5B1412F05600D04B0C /* liballegro_shader-static.a in Frameworks */,
+				96943B1A1412E44300D04B0C /* libz.a in Frameworks */,
+				964C1A731412E3F800487A5A /* SystemConfiguration.framework in Frameworks */,
+				96943B1F1412E45900D04B0C /* liballegro_main-static.a in Frameworks */,
+				964C1A741412E3F800487A5A /* CFNetwork.framework in Frameworks */,
+				96943B231412E46800D04B0C /* libfreetype.a in Frameworks */,
+				96943B201412E45F00D04B0C /* liballegro_primitives-static.a in Frameworks */,
+				96943B221412E46500D04B0C /* liballegro-static.a in Frameworks */,
+				96943B211412E46200D04B0C /* liballegro_ttf-static.a in Frameworks */,
+				964C1A751412E3F800487A5A /* CoreFoundation.framework in Frameworks */,
+				96943B1E1412E45700D04B0C /* liballegro_image-static.a in Frameworks */,
+				96943B1D1412E45200D04B0C /* liballegro_font-static.a in Frameworks */,
+				964C1A761412E3F800487A5A /* Foundation.framework in Frameworks */,
+				964C1A771412E3F800487A5A /* GameKit.framework in Frameworks */,
+				964C1A781412E3F800487A5A /* OpenGLES.framework in Frameworks */,
+				964C1A791412E3F800487A5A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96213A9E1413BEAF00343C96 /* Mac libs */ = {
+			isa = PBXGroup;
+			children = (
+				96213A9C1413BEA100343C96 /* libbass.dylib */,
+				96213A941413BE4200343C96 /* libbass.dylib */,
+				96213A951413BE4200343C96 /* libfreetype.a */,
+				96213A861413BE2700343C96 /* liballegro_font-static.a */,
+				96213A871413BE2700343C96 /* liballegro_image-static.a */,
+				96213A881413BE2700343C96 /* liballegro_main-static.a */,
+				96213A891413BE2700343C96 /* liballegro_primitives-static.a */,
+				96213A8A1413BE2700343C96 /* liballegro_shader-static.a */,
+				96213A8B1413BE2700343C96 /* liballegro_ttf-static.a */,
+				96213A8C1413BE2700343C96 /* liballegro-static.a */,
+			);
+			name = "Mac libs";
+			sourceTree = "<group>";
+		};
+		965A101D13931CAA00C1ECDA = {
+			isa = PBXGroup;
+			children = (
+				9638AE0714C23CD4004EA91F /* libJoypadCocoa.a */,
+				9638ADFE14C23CBF004EA91F /* JoypadConstants.h */,
+				9638ADFF14C23CBF004EA91F /* JoypadControllerLayout.h */,
+				9638AE0014C23CBF004EA91F /* JoypadDevice.h */,
+				9638AE0114C23CBF004EA91F /* JoypadLinkerHelper.m */,
+				9638AE0214C23CBF004EA91F /* JoypadManager.h */,
+				9638AE0314C23CBF004EA91F /* JoypadSDK.h */,
+				9638AE0414C23CBF004EA91F /* libJoypadCocoaTouch.a */,
+				9638ADDE14C1E0E3004EA91F /* libSBJoystickLib.a */,
+				9638ADDB14C1E09A004EA91F /* AVFoundation.framework */,
+				96E9DBD91433788000730484 /* joypad_handler.h */,
+				96E9DBDA1433788000730484 /* joypad_handler.m */,
+				96EDED6A142550A700EDF463 /* Full icons */,
+				96213ACD1413C78E00343C96 /* lite-data */,
+				96213ACB1413C74B00343C96 /* Mac copy-Info.plist */,
+				96213AC91413C71E00343C96 /* lite-icon.icns */,
+				96213AA91413C1F500343C96 /* Bobby-Mac-Info.plist */,
+				96213AA71413C01C00343C96 /* IOKit.framework */,
+				96213A9F1413C00E00343C96 /* Cocoa.framework */,
+				96213AA01413C00E00343C96 /* Foundation.framework */,
+				96213AA11413C00E00343C96 /* OpenGL.framework */,
+				96213AA21413C00E00343C96 /* QuartzCore.framework */,
+				96213A9E1413BEAF00343C96 /* Mac libs */,
+				96213A991413BE6F00343C96 /* data */,
+				96213A841413BDE600343C96 /* icon.icns */,
+				96943B5D1412F1C600D04B0C /* lite-data */,
+				967C342E1412E249000046C8 /* Icon-Small-50.png */,
+				967C342F1412E249000046C8 /* Icon-Small.png */,
+				96EDED81142552A300EDF463 /* Icon-72.png */,
+				96EDED82142552A300EDF463 /* Icon.png */,
+				967C34301412E249000046C8 /* Icon-Small@2x.png */,
+				967C34321412E249000046C8 /* Icon@2x.png */,
+				967C34331412E249000046C8 /* iPadIcon.png */,
+				967C34341412E249000046C8 /* iPhoneIcon.png */,
+				967C34351412E249000046C8 /* iTunesArtwork */,
+				96943B591412ECB900D04B0C /* liballegro_shader-static.a */,
+				965A10891393215300C1ECDA /* liballegro_font-static.a */,
+				965A108A1393215300C1ECDA /* liballegro_image-static.a */,
+				965A108B1393215300C1ECDA /* liballegro_main-static.a */,
+				965A108C1393215300C1ECDA /* liballegro_primitives-static.a */,
+				965A108D1393215300C1ECDA /* liballegro_ttf-static.a */,
+				965A108E1393215300C1ECDA /* liballegro-static.a */,
+				965A108F1393215300C1ECDA /* libfreetype.a */,
+				96943B241412E48200D04B0C /* libbass.a */,
+				962C26E1140701C800C397FE /* libz.a */,
+				962F36A113FC539600152654 /* libpng.a */,
+				967EEB9213CD4E8500239C86 /* AudioToolbox.framework */,
+				967EEB8F13CD4E4E00239C86 /* CoreGraphics.framework */,
+				967EEB9013CD4E4E00239C86 /* QuartzCore.framework */,
+				967EEB8D13CD4DFA00239C86 /* MediaPlayer.framework */,
+				967EEB8713CD4DBC00239C86 /* QuartzCore.framework */,
+				967EEB8813CD4DBC00239C86 /* SystemConfiguration.framework */,
+				967EEB7B13CD4D9C00239C86 /* CFNetwork.framework */,
+				967EEB7C13CD4D9C00239C86 /* CoreFoundation.framework */,
+				967EEB7D13CD4D9D00239C86 /* Foundation.framework */,
+				967EEB7E13CD4D9D00239C86 /* GameKit.framework */,
+				967EEB7F13CD4D9D00239C86 /* OpenGLES.framework */,
+				967EEB8013CD4D9D00239C86 /* UIKit.framework */,
+				960A1BF313A98B9700A85575 /* data */,
+				96FA5B5913A82F1200FB7780 /* Bobby.h */,
+				96FA5B5513A82DF800FB7780 /* bassstuff.cpp */,
+				96FA5B5613A82DF800FB7780 /* Bobby.m */,
+				96595830139EB0460065DB53 /* nooskewl_square.png */,
+				965A103613931CAA00C1ECDA /* Ballz */,
+				96943B261412E5E300D04B0C /* Bobby Lite */,
+				965A102913931CAA00C1ECDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		965A102913931CAA00C1ECDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				965A102813931CAA00C1ECDA /* Bobby.app */,
+				965BE8571412D9D000ECB316 /* Bobby Lite.app */,
+				96213A7D1413BAD900343C96 /* Bobby.app */,
+				96213AC71413C6FB00343C96 /* Bobby Lite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		965A103613931CAA00C1ECDA /* Ballz */ = {
+			isa = PBXGroup;
+			children = (
+				965A103713931CAA00C1ECDA /* Supporting Files */,
+			);
+			path = Ballz;
+			sourceTree = "<group>";
+		};
+		965A103713931CAA00C1ECDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				965A103813931CAA00C1ECDA /* Ballz-Info.plist */,
+				96AB3A0A13AEA4660013BE7B /* MyUIViewController.h */,
+				96AB3A0B13AEA4660013BE7B /* MyUIViewController.m */,
+				965A103913931CAA00C1ECDA /* InfoPlist.strings */,
+				965A103C13931CAA00C1ECDA /* Ballz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96943B261412E5E300D04B0C /* Bobby Lite */ = {
+			isa = PBXGroup;
+			children = (
+				96943B291412E66E00D04B0C /* Bobby Lite-Prefix.pch */,
+				96943B271412E66100D04B0C /* Bobby Lite-Info.plist */,
+			);
+			name = "Bobby Lite";
+			path = Ballz;
+			sourceTree = "<group>";
+		};
+		96EDED6A142550A700EDF463 /* Full icons */ = {
+			isa = PBXGroup;
+			children = (
+				9638ADE214C20855004EA91F /* Default.png */,
+				9638ADE314C20855004EA91F /* Icon-72.png */,
+				9638ADE414C20855004EA91F /* Icon-Small-50.png */,
+				9638ADE514C20855004EA91F /* Icon-Small.png */,
+				9638ADE614C20855004EA91F /* Icon-Small@2x.png */,
+				9638ADE714C20855004EA91F /* Icon.png */,
+				9638ADE814C20855004EA91F /* Icon@2x.png */,
+				9638ADE914C20855004EA91F /* iPadIcon.png */,
+				9638ADEA14C20855004EA91F /* iPhoneIcon.png */,
+				9638ADEB14C20855004EA91F /* iTunesArtwork */,
+			);
+			name = "Full icons";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96213A501413BAD900343C96 /* Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96213A7A1413BAD900343C96 /* Build configuration list for PBXNativeTarget "Mac" */;
+			buildPhases = (
+				96213A511413BAD900343C96 /* Sources */,
+				96213A551413BAD900343C96 /* Frameworks */,
+				96213A6C1413BAD900343C96 /* Resources */,
+				96213A781413BAD900343C96 /* CopyFiles */,
+				96213A981413BE4F00343C96 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mac;
+			productName = Ballz;
+			productReference = 96213A7D1413BAD900343C96 /* Bobby.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96213AAB1413C6FB00343C96 /* Mac Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96213AC41413C6FB00343C96 /* Build configuration list for PBXNativeTarget "Mac Lite" */;
+			buildPhases = (
+				96213AAC1413C6FB00343C96 /* Sources */,
+				96213AAF1413C6FB00343C96 /* Frameworks */,
+				96213ABE1413C6FB00343C96 /* Resources */,
+				96213AC01413C6FB00343C96 /* CopyFiles */,
+				96213AC21413C6FB00343C96 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mac Lite";
+			productName = Ballz;
+			productReference = 96213AC71413C6FB00343C96 /* Bobby Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		965A102713931CAA00C1ECDA /* Ballz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 965A105413931CAA00C1ECDA /* Build configuration list for PBXNativeTarget "Ballz" */;
+			buildPhases = (
+				965A102413931CAA00C1ECDA /* Sources */,
+				965A102513931CAA00C1ECDA /* Frameworks */,
+				965A102613931CAA00C1ECDA /* Resources */,
+				965A105A1393201E00C1ECDA /* CopyFiles */,
+				96EDED741425514B00EDF463 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ballz;
+			productName = Ballz;
+			productReference = 965A102813931CAA00C1ECDA /* Bobby.app */;
+			productType = "com.apple.product-type.application";
+		};
+		965BE8561412D9D000ECB316 /* Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 965BE87C1412D9D000ECB316 /* Build configuration list for PBXNativeTarget "Lite" */;
+			buildPhases = (
+				965BE8531412D9D000ECB316 /* Sources */,
+				965BE8541412D9D000ECB316 /* Frameworks */,
+				96943B5C1412F1B000D04B0C /* CopyFiles */,
+				96EDED85142552BC00EDF463 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lite;
+			productName = "Bobby Lite";
+			productReference = 965BE8571412D9D000ECB316 /* Bobby Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		965A101F13931CAA00C1ECDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+				ORGANIZATIONNAME = Nooskewl;
+			};
+			buildConfigurationList = 965A102213931CAA00C1ECDA /* Build configuration list for PBXProject "Ballz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 965A101D13931CAA00C1ECDA;
+			productRefGroup = 965A102913931CAA00C1ECDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				965A102713931CAA00C1ECDA /* Ballz */,
+				965BE8561412D9D000ECB316 /* Lite */,
+				96213A501413BAD900343C96 /* Mac */,
+				96213AAB1413C6FB00343C96 /* Mac Lite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96213A6C1413BAD900343C96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96213A851413BDE600343C96 /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96213ABE1413C6FB00343C96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96213ACA1413C71E00343C96 /* lite-icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965A102613931CAA00C1ECDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965A103B13931CAA00C1ECDA /* InfoPlist.strings in Resources */,
+				9638ADEC14C20855004EA91F /* Default.png in Resources */,
+				9638ADED14C20855004EA91F /* Icon-72.png in Resources */,
+				9638ADEE14C20855004EA91F /* Icon-Small-50.png in Resources */,
+				9638ADEF14C20855004EA91F /* Icon-Small.png in Resources */,
+				9638ADF014C20855004EA91F /* Icon-Small@2x.png in Resources */,
+				9638ADF114C20855004EA91F /* Icon.png in Resources */,
+				9638ADF214C20855004EA91F /* Icon@2x.png in Resources */,
+				9638ADF314C20855004EA91F /* iPadIcon.png in Resources */,
+				9638ADF414C20855004EA91F /* iPhoneIcon.png in Resources */,
+				9638ADF514C20855004EA91F /* iTunesArtwork in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96213A511413BAD900343C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96213A521413BAD900343C96 /* bassstuff.cpp in Sources */,
+				96213A531413BAD900343C96 /* Bobby.m in Sources */,
+				96E9DBDD1433788000730484 /* joypad_handler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96213AAC1413C6FB00343C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96213AAD1413C6FB00343C96 /* bassstuff.cpp in Sources */,
+				96213AAE1413C6FB00343C96 /* Bobby.m in Sources */,
+				96E9DBDE1433788000730484 /* joypad_handler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965A102413931CAA00C1ECDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FA5B5713A82DF800FB7780 /* bassstuff.cpp in Sources */,
+				96FA5B5813A82DF800FB7780 /* Bobby.m in Sources */,
+				96AB3A0C13AEA4660013BE7B /* MyUIViewController.m in Sources */,
+				96E9DBDB1433788000730484 /* joypad_handler.m in Sources */,
+				9638AE0514C23CBF004EA91F /* JoypadLinkerHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965BE8531412D9D000ECB316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96943B511412EBD500D04B0C /* bassstuff.cpp in Sources */,
+				96943B521412EBD500D04B0C /* Bobby.m in Sources */,
+				96E9DBDC1433788000730484 /* joypad_handler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		965A103913931CAA00C1ECDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				965A103A13931CAA00C1ECDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96213A7B1413BAD900343C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "3rd Party Mac Developer Application";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					WITHOUT_GAMECENTER,
+					MACOSX,
+				);
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				HEADER_SEARCH_PATHS = (
+					/Users/trent/code/local/include,
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = "Bobby-Mac-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/trent/code/local/lib,
+					"\"$(SRCROOT)/../../../Downloads/JoypadSDKs/Mac/JoypadCocoaSDK\"",
+					"\"$(SRCROOT)/../../../Downloads/JoypadSDKs 2/Cocoa/Mac/JoypadMac\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Bobby;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96213A7C1413BAD900343C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "3rd Party Mac Developer Application";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					WITHOUT_GAMECENTER,
+					MACOSX,
+				);
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				HEADER_SEARCH_PATHS = (
+					/Users/trent/code/local/include,
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = "Bobby-Mac-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/trent/code/local/lib,
+					"\"$(SRCROOT)/../../../Downloads/JoypadSDKs/Mac/JoypadCocoaSDK\"",
+					"\"$(SRCROOT)/../../../Downloads/JoypadSDKs 2/Cocoa/Mac/JoypadMac\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Bobby;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		96213AC51413C6FB00343C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "3rd Party Mac Developer Application";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					WITHOUT_GAMECENTER,
+					LITE,
+					MACOSX,
+				);
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				HEADER_SEARCH_PATHS = (
+					/Users/trent/code/local/include,
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = "Mac copy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/trent/code/local/lib,
+					"\"$(SRCROOT)/../../../Downloads/JoypadSDKs/Mac/JoypadCocoaSDK\"",
+					"\"$(SRCROOT)/../../../Downloads/JoypadSDKs 2/Cocoa/Mac/JoypadMac\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "Bobby Lite";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96213AC61413C6FB00343C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "3rd Party Mac Developer Application";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					WITHOUT_GAMECENTER,
+					LITE,
+					MACOSX,
+				);
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				HEADER_SEARCH_PATHS = (
+					/Users/trent/code/local/include,
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = "Mac copy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/trent/code/local/lib,
+					"\"$(SRCROOT)/../../../Downloads/JoypadSDKs/Mac/JoypadCocoaSDK\"",
+					"\"$(SRCROOT)/../../../Downloads/JoypadSDKs 2/Cocoa/Mac/JoypadMac\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "Bobby Lite";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		965A105213931CAA00C1ECDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COMPRESS_PNG_FILES = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Users/trent/code/iphone_libs_r;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				LIBRARY_SEARCH_PATHS = /Users/trent/code/iphone_libs_r;
+				OTHER_LDFLAGS = (
+					"-weak_library",
+					/usr/lib/libSystem.B.dylib,
+					"-weak_library",
+					/System/Library/Frameworks/GameKit.framework/GameKit,
+				);
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		965A105313931CAA00C1ECDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COMPRESS_PNG_FILES = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Users/trent/code/iphone_libs_r;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				LIBRARY_SEARCH_PATHS = /Users/trent/code/iphone_libs_r;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-weak_library",
+					/usr/lib/libSystem.B.dylib,
+					"-weak_library",
+					/System/Library/Frameworks/GameKit.framework/GameKit,
+				);
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		965A105513931CAA00C1ECDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ballz/Ballz-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = IPHONE;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "Ballz/Ballz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../iphone_libs_r\"",
+					"\"$(SRCROOT)/../../iphone_libs_s\"",
+					"\"$(SRCROOT)/../../../Downloads/JoypadSDKs/iOS/JoypadCocoaTouchSDK\"",
+					"\"$(SRCROOT)/../../../Downloads/JoypadSDKs 2/Cocoa/iOS/JoypadiOS\"",
+					"\"$(SRCROOT)/../../../Downloads/JoypadSDKs 2/Cocoa/Mac/JoypadMac\"",
+				);
+				PRODUCT_NAME = Bobby;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		965A105613931CAA00C1ECDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ballz/Ballz-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = IPHONE;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "Ballz/Ballz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../iphone_libs_r\"",
+					"\"$(SRCROOT)/../../iphone_libs_s\"",
+					"\"$(SRCROOT)/../../../Downloads/JoypadSDKs/iOS/JoypadCocoaTouchSDK\"",
+					"\"$(SRCROOT)/../../../Downloads/JoypadSDKs 2/Cocoa/iOS/JoypadiOS\"",
+					"\"$(SRCROOT)/../../../Downloads/JoypadSDKs 2/Cocoa/Mac/JoypadMac\"",
+				);
+				PRODUCT_NAME = Bobby;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		965BE87A1412D9D000ECB316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_NAME = "Bobby-Lite";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bobby Lite/Bobby Lite-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					WITHOUT_GAMECENTER,
+					LITE,
+					IPHONE,
+				);
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "Bobby Lite/Bobby Lite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../iphone_libs_r\"",
+					"\"$(SRCROOT)/../../../Downloads/JoypadSDKs/iOS/JoypadCocoaTouchSDK\"",
+					"\"$(SRCROOT)/../../../Downloads/JoypadSDKs 2/Cocoa/iOS/JoypadiOS\"",
+				);
+				PRODUCT_NAME = "Bobby Lite";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		965BE87B1412D9D000ECB316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				EXECUTABLE_NAME = "Bobby-Lite";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bobby Lite/Bobby Lite-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					WITHOUT_GAMECENTER,
+					LITE,
+					IPHONE,
+				);
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "Bobby Lite/Bobby Lite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../iphone_libs_r\"",
+					"\"$(SRCROOT)/../../../Downloads/JoypadSDKs/iOS/JoypadCocoaTouchSDK\"",
+					"\"$(SRCROOT)/../../../Downloads/JoypadSDKs 2/Cocoa/iOS/JoypadiOS\"",
+				);
+				PRODUCT_NAME = "Bobby Lite";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96213A7A1413BAD900343C96 /* Build configuration list for PBXNativeTarget "Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96213A7B1413BAD900343C96 /* Debug */,
+				96213A7C1413BAD900343C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96213AC41413C6FB00343C96 /* Build configuration list for PBXNativeTarget "Mac Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96213AC51413C6FB00343C96 /* Debug */,
+				96213AC61413C6FB00343C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		965A102213931CAA00C1ECDA /* Build configuration list for PBXProject "Ballz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965A105213931CAA00C1ECDA /* Debug */,
+				965A105313931CAA00C1ECDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		965A105413931CAA00C1ECDA /* Build configuration list for PBXNativeTarget "Ballz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965A105513931CAA00C1ECDA /* Debug */,
+				965A105613931CAA00C1ECDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		965BE87C1412D9D000ECB316 /* Build configuration list for PBXNativeTarget "Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965BE87A1412D9D000ECB316 /* Debug */,
+				965BE87B1412D9D000ECB316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 965A101F13931CAA00C1ECDA /* Project object */;
+}

@@ -1,0 +1,69 @@
+About
+-----
+
+Ballz was written for the SizeHack 2000 competition. Basically,
+you have to bounce all the green balls into the spiral thing
+by colliding into them. If you collide with the spiral when it's
+yellow, you die. It'll turn purple when you kill all the green
+guys, then you can go into it to go to the next level.
+
+I planned on adding some powerups and obstacles, but ran out of
+space and I want to keep the code clean. The game is still fun
+anyway. No sound either.
+
+
+Controls
+--------
+
+Left Arrow   or  Joypad left      --  Rotate counter-clockwise
+Right Arrow  or  Joypad right     --  Rotate clockwise
+Up Arrow     or  Joypad button 1  --  Move forward
+Escape                            --  Quit
+P                                 --  Pause
+
+
+Known bugs
+----------
+
+There was a bug where balls would get stuck on walls (until you
+bounce them) or bounce off in the wrong direction. I think I fixed
+it but it still might happen every so often.
+
+Once a ball starts bouncing, it never stops, but I don't really
+care about this one :).
+
+
+Credits
+-------
+
+Thanks to Jan Hubicka for Koules. I pinched a tiny bit of his collsion
+response code.
+
+Everything else by Trent Gamblin <tmg@cyberlink.bc.ca>
+
+
+URLs
+----
+
+Allegro:
+  http://www.talula.demon.co.uk/allegro/
+
+SizeHack:
+  http://www.cyberlink.bc.ca/~tmg/sizehack/progress/
+
+Koules:
+  http://www.paru.cas.cz/~hubicka/koules/English/koules.html
+
+
+--
+
+
+2021 Update
+-----------
+
+* Fixed endless bouncing
+* Added sound effects
+* Triple resolution
+* Small bugfixes
+* FIXME: Balls still bounce wrongly off corners between blocks
+* Secret revealed: PGUP/PGDN change levels

@@ -1,0 +1,1 @@
+After publishing you need to copy the data/ directory too.

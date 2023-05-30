@@ -1,0 +1,10 @@
+CC=gcc
+FLAGS=-Wall -DALLEGRO_STATICLINK
+LIBS=-rdynamic `allegro-config --static`
+EXE=ballz
+
+ballz: ballz.c ballz.h datnames.h
+	$(CC) $(FLAGS) ballz.c -o $(EXE) $(LIBS)
+
+clean:
+	@rm -f ballz $(EXE) *.o *~ core
